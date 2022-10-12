@@ -34,6 +34,7 @@
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.txtUserPsw = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -89,12 +90,23 @@
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(573, 299);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(33, 24);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "PR";
+            this.label4.Visible = false;
+            // 
             // FrmGiris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(618, 332);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtUserPsw);
             this.Controls.Add(this.txtUserName);
@@ -118,5 +130,6 @@
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.TextBox txtUserPsw;
         private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Label label4;
     }
 }
